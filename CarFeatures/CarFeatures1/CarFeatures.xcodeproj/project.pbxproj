@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9937E2ED26E6F503008A1B97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937E2EC26E6F503008A1B97 /* AppDelegate.swift */; };
+		9937E2EF26E6F503008A1B97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937E2EE26E6F503008A1B97 /* SceneDelegate.swift */; };
+		9937E2F126E6F503008A1B97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937E2F026E6F503008A1B97 /* ViewController.swift */; };
+		9937E2F426E6F503008A1B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9937E2F226E6F503008A1B97 /* Main.storyboard */; };
+		9937E2F626E6F50B008A1B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9937E2F526E6F50B008A1B97 /* Assets.xcassets */; };
+		9937E2F926E6F50B008A1B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9937E2F726E6F50B008A1B97 /* LaunchScreen.storyboard */; };
+		9937E30926E6F616008A1B97 /* car features leather seats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9937E30226E6F616008A1B97 /* car features leather seats.jpg */; };
+		9937E30A26E6F616008A1B97 /* car feature 6 cylinder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9937E30326E6F616008A1B97 /* car feature 6 cylinder.jpg */; };
+		9937E30B26E6F616008A1B97 /* car feature tires.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9937E30426E6F616008A1B97 /* car feature tires.jpg */; };
+		9937E30C26E6F616008A1B97 /* car feature 4 cylinder .jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9937E30526E6F616008A1B97 /* car feature 4 cylinder .jpg */; };
+		9937E30D26E6F616008A1B97 /* car feature 12 cylinder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9937E30626E6F616008A1B97 /* car feature 12 cylinder.jpg */; };
+		9937E30E26E6F616008A1B97 /* car features cloth seats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9937E30726E6F616008A1B97 /* car features cloth seats.jpg */; };
+		9937E30F26E6F616008A1B97 /* car feature colors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9937E30826E6F616008A1B97 /* car feature colors.jpg */; };
+		9937E31226E7B8CF008A1B97 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937E31126E7B8CE008A1B97 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9937E2E926E6F502008A1B97 /* CarFeatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarFeatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9937E2EC26E6F503008A1B97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9937E2EE26E6F503008A1B97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9937E2F026E6F503008A1B97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9937E2F326E6F503008A1B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9937E2F526E6F50B008A1B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9937E2F826E6F50B008A1B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9937E2FA26E6F50B008A1B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9937E30226E6F616008A1B97 /* car features leather seats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "car features leather seats.jpg"; sourceTree = "<group>"; };
+		9937E30326E6F616008A1B97 /* car feature 6 cylinder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "car feature 6 cylinder.jpg"; sourceTree = "<group>"; };
+		9937E30426E6F616008A1B97 /* car feature tires.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "car feature tires.jpg"; sourceTree = "<group>"; };
+		9937E30526E6F616008A1B97 /* car feature 4 cylinder .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "car feature 4 cylinder .jpg"; sourceTree = "<group>"; };
+		9937E30626E6F616008A1B97 /* car feature 12 cylinder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "car feature 12 cylinder.jpg"; sourceTree = "<group>"; };
+		9937E30726E6F616008A1B97 /* car features cloth seats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "car features cloth seats.jpg"; sourceTree = "<group>"; };
+		9937E30826E6F616008A1B97 /* car feature colors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "car feature colors.jpg"; sourceTree = "<group>"; };
+		9937E31126E7B8CE008A1B97 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9937E2E626E6F502008A1B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9937E2E026E6F502008A1B97 = {
+			isa = PBXGroup;
+			children = (
+				9937E2EB26E6F502008A1B97 /* CarFeatures */,
+				9937E2EA26E6F502008A1B97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9937E2EA26E6F502008A1B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9937E2E926E6F502008A1B97 /* CarFeatures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9937E2EB26E6F502008A1B97 /* CarFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				9937E2EC26E6F503008A1B97 /* AppDelegate.swift */,
+				9937E2EE26E6F503008A1B97 /* SceneDelegate.swift */,
+				9937E2F026E6F503008A1B97 /* ViewController.swift */,
+				9937E31126E7B8CE008A1B97 /* DetailViewController.swift */,
+				9937E2F226E6F503008A1B97 /* Main.storyboard */,
+				9937E2F526E6F50B008A1B97 /* Assets.xcassets */,
+				9937E2F726E6F50B008A1B97 /* LaunchScreen.storyboard */,
+				9937E2FA26E6F50B008A1B97 /* Info.plist */,
+				9937E30126E6F616008A1B97 /* car features */,
+			);
+			path = CarFeatures;
+			sourceTree = "<group>";
+		};
+		9937E30126E6F616008A1B97 /* car features */ = {
+			isa = PBXGroup;
+			children = (
+				9937E30226E6F616008A1B97 /* car features leather seats.jpg */,
+				9937E30326E6F616008A1B97 /* car feature 6 cylinder.jpg */,
+				9937E30426E6F616008A1B97 /* car feature tires.jpg */,
+				9937E30526E6F616008A1B97 /* car feature 4 cylinder .jpg */,
+				9937E30626E6F616008A1B97 /* car feature 12 cylinder.jpg */,
+				9937E30726E6F616008A1B97 /* car features cloth seats.jpg */,
+				9937E30826E6F616008A1B97 /* car feature colors.jpg */,
+			);
+			path = "car features";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9937E2E826E6F502008A1B97 /* CarFeatures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9937E2FD26E6F50B008A1B97 /* Build configuration list for PBXNativeTarget "CarFeatures" */;
+			buildPhases = (
+				9937E2E526E6F502008A1B97 /* Sources */,
+				9937E2E626E6F502008A1B97 /* Frameworks */,
+				9937E2E726E6F502008A1B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarFeatures;
+			productName = CarFeatures;
+			productReference = 9937E2E926E6F502008A1B97 /* CarFeatures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9937E2E126E6F502008A1B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					9937E2E826E6F502008A1B97 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 9937E2E426E6F502008A1B97 /* Build configuration list for PBXProject "CarFeatures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9937E2E026E6F502008A1B97;
+			productRefGroup = 9937E2EA26E6F502008A1B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9937E2E826E6F502008A1B97 /* CarFeatures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9937E2E726E6F502008A1B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9937E2F926E6F50B008A1B97 /* LaunchScreen.storyboard in Resources */,
+				9937E30D26E6F616008A1B97 /* car feature 12 cylinder.jpg in Resources */,
+				9937E2F626E6F50B008A1B97 /* Assets.xcassets in Resources */,
+				9937E2F426E6F503008A1B97 /* Main.storyboard in Resources */,
+				9937E30B26E6F616008A1B97 /* car feature tires.jpg in Resources */,
+				9937E30F26E6F616008A1B97 /* car feature colors.jpg in Resources */,
+				9937E30C26E6F616008A1B97 /* car feature 4 cylinder .jpg in Resources */,
+				9937E30E26E6F616008A1B97 /* car features cloth seats.jpg in Resources */,
+				9937E30926E6F616008A1B97 /* car features leather seats.jpg in Resources */,
+				9937E30A26E6F616008A1B97 /* car feature 6 cylinder.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9937E2E526E6F502008A1B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9937E2F126E6F503008A1B97 /* ViewController.swift in Sources */,
+				9937E2ED26E6F503008A1B97 /* AppDelegate.swift in Sources */,
+				9937E2EF26E6F503008A1B97 /* SceneDelegate.swift in Sources */,
+				9937E31226E7B8CF008A1B97 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9937E2F226E6F503008A1B97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9937E2F326E6F503008A1B97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9937E2F726E6F50B008A1B97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9937E2F826E6F50B008A1B97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9937E2FB26E6F50B008A1B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9937E2FC26E6F50B008A1B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9937E2FE26E6F50B008A1B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarFeatures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.taylor.paul.CarFeatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9937E2FF26E6F50B008A1B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarFeatures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.taylor.paul.CarFeatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9937E2E426E6F502008A1B97 /* Build configuration list for PBXProject "CarFeatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9937E2FB26E6F50B008A1B97 /* Debug */,
+				9937E2FC26E6F50B008A1B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9937E2FD26E6F50B008A1B97 /* Build configuration list for PBXNativeTarget "CarFeatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9937E2FE26E6F50B008A1B97 /* Debug */,
+				9937E2FF26E6F50B008A1B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9937E2E126E6F502008A1B97 /* Project object */;
+}
