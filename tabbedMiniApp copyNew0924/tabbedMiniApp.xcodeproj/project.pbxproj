@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99A1214626FB72F7004EB54A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A1214526FB72F7004EB54A /* AppDelegate.swift */; };
+		99A1214826FB72F7004EB54A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A1214726FB72F7004EB54A /* SceneDelegate.swift */; };
+		99A1214A26FB72F7004EB54A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A1214926FB72F7004EB54A /* ViewController.swift */; };
+		99A1214D26FB72F7004EB54A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A1214B26FB72F7004EB54A /* Main.storyboard */; };
+		99A1214F26FB72FF004EB54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A1214E26FB72FF004EB54A /* Assets.xcassets */; };
+		99A1215226FB72FF004EB54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A1215026FB72FF004EB54A /* LaunchScreen.storyboard */; };
+		99A1216026FB8B6B004EB54A /* WarningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A1215F26FB8B6B004EB54A /* WarningController.swift */; };
+		99A1216426FC11D4004EB54A /* CardioNeuroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A1216326FC11D3004EB54A /* CardioNeuroController.swift */; };
+		99A1217426FC1E81004EB54A /* Heart Beats.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 99A1217126FC1E81004EB54A /* Heart Beats.mp4 */; };
+		99A1217526FC1E81004EB54A /* neurons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99A1217226FC1E81004EB54A /* neurons.jpg */; };
+		99A1217626FC1E81004EB54A /* nerve-cells.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99A1217326FC1E81004EB54A /* nerve-cells.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99A1214226FB72F7004EB54A /* tabbedMiniApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabbedMiniApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A1214526FB72F7004EB54A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99A1214726FB72F7004EB54A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99A1214926FB72F7004EB54A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99A1214C26FB72F7004EB54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99A1214E26FB72FF004EB54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99A1215126FB72FF004EB54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99A1215326FB72FF004EB54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A1215F26FB8B6B004EB54A /* WarningController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningController.swift; sourceTree = "<group>"; };
+		99A1216326FC11D3004EB54A /* CardioNeuroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioNeuroController.swift; sourceTree = "<group>"; };
+		99A1217126FC1E81004EB54A /* Heart Beats.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heart Beats.mp4"; sourceTree = "<group>"; };
+		99A1217226FC1E81004EB54A /* neurons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neurons.jpg; sourceTree = "<group>"; };
+		99A1217326FC1E81004EB54A /* nerve-cells.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nerve-cells.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99A1213F26FB72F7004EB54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99A1213926FB72F7004EB54A = {
+			isa = PBXGroup;
+			children = (
+				99A1214426FB72F7004EB54A /* tabbedMiniApp */,
+				99A1214326FB72F7004EB54A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99A1214326FB72F7004EB54A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99A1214226FB72F7004EB54A /* tabbedMiniApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99A1214426FB72F7004EB54A /* tabbedMiniApp */ = {
+			isa = PBXGroup;
+			children = (
+				99A1214526FB72F7004EB54A /* AppDelegate.swift */,
+				99A1214726FB72F7004EB54A /* SceneDelegate.swift */,
+				99A1214926FB72F7004EB54A /* ViewController.swift */,
+				99A1214B26FB72F7004EB54A /* Main.storyboard */,
+				99A1216326FC11D3004EB54A /* CardioNeuroController.swift */,
+				99A1215F26FB8B6B004EB54A /* WarningController.swift */,
+				99A1214E26FB72FF004EB54A /* Assets.xcassets */,
+				99A1215026FB72FF004EB54A /* LaunchScreen.storyboard */,
+				99A1215326FB72FF004EB54A /* Info.plist */,
+				99A1217026FC1E81004EB54A /* CardioNeuro */,
+			);
+			path = tabbedMiniApp;
+			sourceTree = "<group>";
+		};
+		99A1217026FC1E81004EB54A /* CardioNeuro */ = {
+			isa = PBXGroup;
+			children = (
+				99A1217126FC1E81004EB54A /* Heart Beats.mp4 */,
+				99A1217226FC1E81004EB54A /* neurons.jpg */,
+				99A1217326FC1E81004EB54A /* nerve-cells.jpg */,
+			);
+			path = CardioNeuro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99A1214126FB72F7004EB54A /* tabbedMiniApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A1215626FB72FF004EB54A /* Build configuration list for PBXNativeTarget "tabbedMiniApp" */;
+			buildPhases = (
+				99A1213E26FB72F7004EB54A /* Sources */,
+				99A1213F26FB72F7004EB54A /* Frameworks */,
+				99A1214026FB72F7004EB54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tabbedMiniApp;
+			productName = tabbedMiniApp;
+			productReference = 99A1214226FB72F7004EB54A /* tabbedMiniApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99A1213A26FB72F7004EB54A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					99A1214126FB72F7004EB54A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 99A1213D26FB72F7004EB54A /* Build configuration list for PBXProject "tabbedMiniApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99A1213926FB72F7004EB54A;
+			productRefGroup = 99A1214326FB72F7004EB54A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99A1214126FB72F7004EB54A /* tabbedMiniApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99A1214026FB72F7004EB54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A1217626FC1E81004EB54A /* nerve-cells.jpg in Resources */,
+				99A1215226FB72FF004EB54A /* LaunchScreen.storyboard in Resources */,
+				99A1217426FC1E81004EB54A /* Heart Beats.mp4 in Resources */,
+				99A1217526FC1E81004EB54A /* neurons.jpg in Resources */,
+				99A1214F26FB72FF004EB54A /* Assets.xcassets in Resources */,
+				99A1214D26FB72F7004EB54A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99A1213E26FB72F7004EB54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A1216026FB8B6B004EB54A /* WarningController.swift in Sources */,
+				99A1216426FC11D4004EB54A /* CardioNeuroController.swift in Sources */,
+				99A1214A26FB72F7004EB54A /* ViewController.swift in Sources */,
+				99A1214626FB72F7004EB54A /* AppDelegate.swift in Sources */,
+				99A1214826FB72F7004EB54A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99A1214B26FB72F7004EB54A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A1214C26FB72F7004EB54A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99A1215026FB72FF004EB54A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A1215126FB72FF004EB54A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99A1215426FB72FF004EB54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99A1215526FB72FF004EB54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99A1215726FB72FF004EB54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tabbedMiniApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.taylor.paul.tabbedMiniApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99A1215826FB72FF004EB54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tabbedMiniApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.taylor.paul.tabbedMiniApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99A1213D26FB72F7004EB54A /* Build configuration list for PBXProject "tabbedMiniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A1215426FB72FF004EB54A /* Debug */,
+				99A1215526FB72FF004EB54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A1215626FB72FF004EB54A /* Build configuration list for PBXNativeTarget "tabbedMiniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A1215726FB72FF004EB54A /* Debug */,
+				99A1215826FB72FF004EB54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99A1213A26FB72F7004EB54A /* Project object */;
+}
